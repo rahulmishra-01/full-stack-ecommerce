@@ -1,0 +1,81 @@
+// Product data array
+const products = [
+  {
+    id: 1,
+    title: "Premium Cotton T-Shirt with Logo Print",
+    image: "https://images.pexels.com/photos/18256097/pexels-photo-18256097/free-photo-of-t-shirt-on-a-hanger.jpeg?auto=compress&cs=tinysrgb&w=300",
+    rating: 3.5,
+    currentPrice: 29.99,
+    oldPrice: 39.99,
+  },
+  {
+    id: 2,
+    title: "Slim Fit Jeans Classic Blue",
+    image: "https://images.pexels.com/photos/934070/pexels-photo-934070.jpeg?auto=compress&cs=tinysrgb&w=300",
+    rating: 4,
+    currentPrice: 49.99,
+  },
+  {
+    id: 3,
+    title: "Leather Crossbody Bag",
+    image: "https://images.pexels.com/photos/27204287/pexels-photo-27204287/free-photo-of-a-brown-leather-cross-body-bag-with-a-strap.jpeg?auto=compress&cs=tinysrgb&w=300",
+    rating: 4.5,
+    currentPrice: 79.99,
+    oldPrice: 99.99,
+  },
+  {
+    id: 4,
+    title: "Casual Sneakers White",
+    image: "https://images.pexels.com/photos/2421374/pexels-photo-2421374.jpeg?auto=compress&cs=tinysrgb&w=300",
+    rating: 5,
+    currentPrice: 59.99,
+  },
+  {
+    id: 5,
+    title: "Wool Blend Winter Coat",
+    image: "https://images.pexels.com/photos/7496335/pexels-photo-7496335.jpeg?auto=compress&cs=tinysrgb&w=300",
+    rating: 4,
+    currentPrice: 129.99,
+    oldPrice: 159.99,
+  },
+  {
+    id: 6,
+    title: "Silk Scarf Floral Print",
+    image: "https://images.pexels.com/photos/14900849/pexels-photo-14900849.jpeg?auto=compress&cs=tinysrgb&w=300",
+    rating: 4.5,
+    currentPrice: 34.99,
+    oldPrice: 49.99,
+  },
+  {
+    id: 7,
+    title: "Structured Shoulder Bag",
+    image: "https://images.pexels.com/photos/11463542/pexels-photo-11463542.png?auto=compress&cs=tinysrgb&w=300",
+    rating: 3,
+    currentPrice: 89.99,
+  },
+  {
+    id: 8,
+    title: "Cashmere Sweater Navy Blue",
+    image: "https://images.pexels.com/photos/6326223/pexels-photo-6326223.jpeg?auto=compress&cs=tinysrgb&w=300",
+    rating: 4.5,
+    currentPrice: 149.99,
+    oldPrice: 199.99,
+  },
+  {
+    id: 9,
+    title: "Linen Shirt Beige",
+    image: "https://images.pexels.com/photos/9594086/pexels-photo-9594086.jpeg?auto=compress&cs=tinysrgb&w=300",
+    rating: 4,
+    currentPrice: 59.99,
+  },
+  {
+    id: 10,
+    title: "High-Top Leather Sneakers",
+    image: "https://images.pexels.com/photos/1307128/pexels-photo-1307128.jpeg?auto=compress&cs=tinysrgb&w=300",
+    rating: 4.5,
+    currentPrice: 119.99,
+    oldPrice: 149.99,
+  },
+];
+
+export default products;
